@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0
+	box-sizing:border-box;
+}
+ul,li,a{
+	list-style: none;
+	text-decoration: none;
+}
+.diyihang{
+	height: 100px;
+	width:100%;
+	border-bottom: 5px solid #0a62a9;
+	display: flex;
+}
+.daohang{
+	heitht:95px;
+	display: flex;
+	justify-content: space-between;
+	width:1190px;
+	margin: 0 auto;
+}
+.dh01{
+	width: 270px;
+	height: 60px;
+    margin-top: 20px;
+}
+.dh01 img{
+	width:100%;
+    height:100%
+}
+.dh02{
+	width:500px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* padding-top: 10px; */
+	color: #333;
+	font-size: 18px;
+}
+.dh02 .dh03{
+	width: 125px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.lb{
+	width: 1190px;
+	height: 488px;
+	margin: 25px auto;
+}
+.lb img{
+	width: 100%
+}
+.sp{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1190px;
+	height: 376px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-left: 20px;
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+}
+.sp .sp1{
+	width:600px;
+	height:336px;
+	display:flex;
+}
+.sp .sp2{
+	width:500px;
+	height:336px;
+	padding-left: 50px;
+	align-items: center;
+	line-height: 40px;
+	display: flex;
+}
+.sp4{
+	color: #0a62a9;
+	font-size: 36px;
+	font-weight: bold;
+}
+div.container.js{
+	display:flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	width: 1190px;
+	height: 500px ;
+	margin: 25px auto;
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+}
+div.taitou{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1190px;
+	height: 69px;
+	background-color: #fafafa;
+	border: 1px solid gainsboro;
+}
+.tt1{
+	display: flex;
+	margin-left: 20px;
+}
+.tt2{
+	display: flex;
+	margin-left: 970px;
+	width: 120px;
+	height: 38px;
+	background-color: #0A62A9;
+	border: 1px solid #0A62A9;
+	border-radius: 5px;
+}
+.tt2 a{
+	color: white;
+	padding-top: 7px;
+	padding-left: 25px;
+
+}
+div.jieshao{
+	display: flex;
+	width: 1190px;
+	height: 431px;
+}
+.js1,.js2,.js3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box ;
+	padding-top: 40px;
+	width: 395px;
+	height: 428px;
+	border: 1px solid gainsboro;
+}
+img.jst{
+	width: 220px;
+	height: 223px;
+	display: flex;
+}
+p.jsz{
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 400;
+}
+div.ckxq{
+	width: 143px;
+	height: 35px;
+	padding-top: 7px;
+	text-align: center;
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+	margin-top: 59px
+}
+.zx{
+	width: 1190px;
+	height: 402px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+}
+.gonggao{
+	width: 1190px;
+	height: 280px;
+	display: flex;
+	justify-content: space-around;
+}
+.gg1,.gg2,.gg3,.gg4{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 276px;
+	height: 310px;
+	padding: 10px 0 30px;
+	box-sizing: border-box;
+}
+.ggt{
+	width: 275px;
+	height: 206px;
+}
+.gonggao p{
+	margin: 30px;
+}
+.foot{
+	height: 200px;
+	margin-top: 25px;
+	padding-top:25px;
+	background-color: #DCDCDC;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+.logo2{
+	width: 270px;
+	height: 60px;
+}
+.logo3{
+	width: 100%;
+	height: 100%;
+}
+.foot p{
+	line-height: 45px;;
+}
